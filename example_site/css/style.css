@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* 레이아웃 */
+#wrap {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#header {
+  height: 325px;
+  background: #111;
+}
+#contents {
+  height: 800px;
+  background: #222;
+}
+#footer {
+  height: 200px;
+  background: #333;
+}
+
+/* 콘텐츠 레이아웃 */
+#content_nav {
+  height: 200px;
+  background: #333;
+}
+#content_title {
+  height: 200px;
+  background: #444;
+}
+#content_banner {
+  height: 200px;
+  background: #555;
+}
+#content_cont {
+  height: 200px;
+  background: #666;
+}
+
+/* 컨테이너 */
+.container {
+  width: 990px;
+  height: inherit;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+}
