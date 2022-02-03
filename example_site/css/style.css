@@ -23,9 +23,6 @@
 /* 레이아웃 */
 #wrap {
   width: 100%;
-  color: white;
-  font-size: 15px;
-  text-align: center;
 }
 #header {
   height: 325px;
@@ -81,6 +78,25 @@
   color: #666;
 }
 .header .header_title {
+  text-align: center;
+}
+.header .header_title h1 {
+  background-color: #4aa8d4;
+  font-size: 28px;
+  padding: 5px 15px;
+  color: #fff;
+  margin-top: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.header .header_title a {
+  display: inline-block;
+  background-color: #2698cd;
+  font-size: 20px;
+  color: #fff;
+  padding: 5px 15px;
+  margin-top: -5px;
 }
 .header .header_icon {
 }
