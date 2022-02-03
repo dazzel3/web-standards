@@ -24,13 +24,12 @@
 #wrap {
   width: 100%;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
-  text-transform: uppercase;
 }
 #header {
   height: 325px;
-  background: #111;
+  background: url(../img/header_bg.jpg) center top repeat-x;
 }
 #contents {
   height: 800px;
@@ -65,4 +64,23 @@
   height: inherit;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.2);
+}
+
+/* 헤더 */
+.header {
+}
+.header .header_menu {
+  text-align: right;
+}
+.header .header_menu a {
+  color: #fff;
+  padding: 10px 0px 10px 13px;
+  display: inline-block;
+}
+.header .header_menu a:hover {
+  color: #666;
+}
+.header .header_title {
+}
+.header .header_icon {
 }
