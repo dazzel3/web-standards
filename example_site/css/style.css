@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: "Somi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_10@1.0/Somi.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* 스킵 메뉴 */
 #skip {
   position: relative;
@@ -36,10 +44,10 @@
 
 /* 콘텐츠 레이아웃 */
 #content_nav {
+  background: #f6fdff;
 }
 #content_title {
-  height: 200px;
-  background: #444;
+  background: #eaf7fd;
 }
 #content_banner {
   height: 200px;
@@ -79,7 +87,7 @@
   padding: 5px 15px;
   color: #fff;
   margin-top: 40px;
-  font-weight: normal;
+  font-weight: 600;
   text-transform: uppercase;
   display: inline-block;
 }
@@ -99,7 +107,7 @@
   width: 60px;
   height: 60px;
   display: inline-block;
-  background: url(../img/icon.png);
+  background: url(../img/icon.png) no-repeat;
   margin: 0 3px;
 }
 .header .header_icon a.icon1 {
@@ -150,6 +158,7 @@
   font-size: 18px;
   color: #25a2d0;
   margin-bottom: 4px;
+  font-weight: 800;
 }
 .nav > div ol {
   overflow: hidden;
@@ -163,4 +172,26 @@
 }
 .nav > div ol li a:hover {
   text-decoration: underline;
+}
+
+/* 타이틀 */
+.title {
+  position: relative;
+}
+.title h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #2c94c4;
+  padding: 10px 0;
+  letter-spacing: -1px;
+  font-family: "Somi";
+}
+.title .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../img/icon.png) no-repeat 0 -600px;
+  width: 60px;
+  height: 60px;
+  margin: 10px 0;
 }

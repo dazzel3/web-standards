@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "IM_Hyemin-Regular";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Regular.woff2")
-    format("woff");
-  font-weight: 300;
+  font-family: "SUIT-ExtraLight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-ExtraLight.woff2")
+    format("woff2");
+  font-weight: normal;
   font-style: normal;
 }
 /* 여백 초기화 */
@@ -54,7 +54,7 @@ select,
 button,
 table,
 a {
-  font-family: "IM_Hyemin-Regular";
+  font-family: "SUIT-ExtraLight";
   color: #222;
   line-height: 1.5;
 }
@@ -66,6 +66,18 @@ li,
 ol,
 menu {
   list-style: none;
+}
+
+/* 제목 태그 초기화 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 13px;
+  color: #222;
+  font-weight: normal;
 }
 
 /* IR 효과 */
