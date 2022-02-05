@@ -50,8 +50,7 @@
   background: #eaf7fd;
 }
 #content_banner {
-  height: 200px;
-  background: #555;
+  background: #dceff7;
 }
 #content_cont {
   height: 200px;
@@ -194,4 +193,54 @@
   width: 60px;
   height: 60px;
   margin: 10px 0;
+}
+
+/* 배너 */
+.banner {
+  position: relative;
+  padding: 24px 0 20px;
+}
+.banner .prev {
+  position: absolute;
+  top: 60px;
+  left: -80px;
+  width: 43px;
+  height: 43px;
+  background: url(../img/icon.png) no-repeat -150px 0;
+}
+.banner .prev:hover {
+  background-position: -193px 0;
+}
+.banner .next {
+  position: absolute;
+  top: 60px;
+  right: -80px;
+  width: 43px;
+  height: 43px;
+  background: url(../img/icon.png) no-repeat -150px -43px;
+}
+.banner .next:hover {
+  background-position: -193px -43px;
+}
+.banner ul {
+  overflow: hidden;
+}
+.banner ul li {
+  float: left;
+  width: 330px;
+}
+.banner ul .banner_img1 {
+  text-align: left;
+}
+.banner ul .banner_img2 {
+  text-align: center;
+}
+.banner ul .banner_img3 {
+  text-align: right;
+}
+.banner ul li a img {
+  border: 4px solid #dcdcdc;
+}
+.banner ul li a img:hover {
+  border-color: #98bcbc;
 }
