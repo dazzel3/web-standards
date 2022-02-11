@@ -194,7 +194,7 @@
 }
 
 /* 배너 */
-.banner {
+/* .banner {
   position: relative;
   padding: 24px 0 20px;
 }
@@ -241,6 +241,68 @@
 }
 .banner ul li a img:hover {
   border-color: #98bcbc;
+} */
+
+/* slick 배너 */
+.banner {
+  position: relative;
+  padding: 24px 0 45px;
+}
+.banner .slick-prev {
+  position: absolute;
+  top: 70px;
+  left: -80px;
+  width: 43px;
+  height: 43px;
+  background: url(../img/icon.png) no-repeat -150px 0;
+  text-indent: -9999px;
+}
+.banner .slick-prev:hover {
+  background-position: -193px 0;
+}
+.banner .slick-next {
+  position: absolute;
+  top: 70px;
+  right: -80px;
+  width: 43px;
+  height: 43px;
+  background: url(../img/icon.png) no-repeat -150px -43px;
+  text-indent: -9999px;
+}
+.banner .slick-next:hover {
+  background-position: -193px -43px;
+}
+.banner img {
+  border: 4px solid #dcdcdc;
+}
+.banner img:hover {
+  border-color: #98bcbc;
+}
+.banner .slick-dots {
+  position: absolute;
+  bottom: 15px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.banner .slick-dots li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+}
+.banner .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #5dbfeb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.banner .slick-dots li.slick-active button {
+  background: #2b91c8;
 }
 
 /* 컨텐츠 */
