@@ -40,6 +40,7 @@
 /* 콘텐츠 레이아웃 */
 #content_nav {
   background: #f6fdff;
+  display: none;
 }
 #content_title {
   background: #eaf7fd;
@@ -187,6 +188,9 @@
   width: 60px;
   height: 60px;
   margin: 10px 0;
+}
+.title .btn.on {
+  background-position: 0 -660px;
 }
 
 /* 배너 */
